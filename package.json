@@ -1,0 +1,35 @@
+{
+  "name": "graphql-node-postgresql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "keywords": [
+    "graphql",
+    "node",
+    "postgresql",
+    "apollo"
+  ],
+  "author": "Sekib Omazic",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.1.6",
+    "nodemon": "^1.18.7"
+  },
+  "dependencies": {
+    "apollo-server": "^2.2.5",
+    "apollo-server-express": "^2.2.5",
+    "cors": "^2.8.5",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "graphql": "^14.0.2",
+    "pg": "^7.7.1",
+    "sequelize": "^4.41.2",
+    "uuid": "^3.3.2"
+  }
+}
